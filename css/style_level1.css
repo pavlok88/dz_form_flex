@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------   home button style ------- */
+
+.homeLink {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 20px;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+}
+.homeLink > img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.homeLink > img:hover {
+    opacity: 1;
+}
+
+#loginForm{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    box-sizing: border-box;
+    width: 320px;
+    
+}
+#loginForm > * {
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    padding: 0 10px;
+    
+}
